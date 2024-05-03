@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>CHANGE DISPLAY THEME</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Arvo&family=Bai+Jamjuree&family=Chakra+Petch:wght@400;700&family=Comfortaa:wght@400;700&family=Cormorant+Garamond:wght@400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Exo:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat+Alternates:wght@400;500;600&family=Montserrat:ital@0;1&family=PT+Sans+Caption&family=Poiret+One&family=Quantico&family=Tenor+Sans&family=Ubuntu+Mono&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        />
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            ::root {
+                --color1: #beebe9;
+                --color2: #df7861;
+                --color3: #ffffad;
+                --color4: #ffe3ed;
+                --color5: #ffffec;
+                --color6: #37ccc5;
+                --color7: #a35847;
+            }
+
+            body {
+                font-family: "Cormorant Garamond";
+                background: linear-gradient(-209deg, #ffffad, #ffffec 40%);
+                padding: 1em;
+            }
+            h1 {
+                text-transform: uppercase;
+                font-weight: 900;
+                text-shadow: 1px 1px 2px #777;
+                font-family: "EB Garamond";
+                text-align: center;
+                font-size: 2.5rem;
+                margin: 1.5em 0 1em 0;
+            }
+
+            .headerOne {
+                background-color: #df7861;
+                background: conic-gradient(
+                    #df7861 16%,
+                    #ffe3ed 16%,
+                    #ffe3ed 42%,
+                    #ffffad 42%,
+                    #ffffad 54%,
+                    #37ccc5 54%,
+                    #37ccc5 72%,
+                    #beebe9 72%,
+                    #beebe9 82%,
+                    #a35847 82%,
+                    #a35847 92%,
+                    #ffffec 42%
+                );
+                background-size: 28%;
+                background-repeat: repeat;
+                -webkit-background-clip: text;
+-webkit-text-fill-color: transparent ;                color: transparent;
+            }
+
+            header {
+                height: 10vh;
+                border-bottom: 1.5px solid #37ccc5;
+            }
+            header > ul {
+                height: 100%;
+            }
+            header li {
+                list-style-type: none;
+                display: inline;
+            }
+            .brand {
+                width: 38%;
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-end;
+            }
+            .brand > li > img {
+                height: 35px;
+            }
+            .brand span {
+                text-transform: capitalize;
+                font-size: 1.15rem;
+                font-family: "Montserrat Alternates";
+                color: #df7861;
+            }
+            .brand > li:nth-child(2) {
+                font-weight: bold;
+                font-size: 1.1rem;
+                color: #37ccc5;
+                font-family: "Cormorant Garamond";
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li class="brand-holder">
+                    <ul class="brand">
+                        <li><img src="furniture-svgrepo-com.svg" /></li>
+                        <li><span>fun</span>-iture</li>
+                    </ul>
+                </li>
+                <li class="menu-holder">
+                    <div class="lineOne"></div>
+                    <div class="lineTwo"></div>
+                    <div class="lineThree"></div>
+                </li>
+            </ul>
+        </header>
+        <h1 class="headerOne">the best furniture for your home</h1>
+
+        <section class="about">
+            <h3>who are we?</h3>
+            <p>
+                Aliqua sit consectetur nisi proident magna fugiat dolore in.
+                Eiusmod anim in ullamco veniam qui excepteur Lorem adipisicing
+                duis. Veniam magna mollit fugiat ut est adipisicing qui
+                consequat. Non sit amet veniam nostrud velit commodo ex laboris
+                ex aliqua nulla esse velit exercitation.
+            </p>
+
+            <p>
+                nisi fugiat exercitation nisi qui esse ut non eiusmod velit
+                excepteur minim amet commodo elit do aliqua velit adipisicing id
+                duis occaecat ea sint non reprehenderit fugiat in anim irure
+            </p>
+        </section>
+
+        <section class="features">
+            <h3>features</h3>
+            <article>
+                <img />
+                <p>Lorem mollit non est occaecat duis nostrud et do dolore</p>
+            </article>
+            <article>
+                <img />
+                <p>
+                    Aliquip non elit tempor velit dolore veniam eiusmod tempor
+                    proident sit.
+                </p>
+            </article>
+            <article>
+                <img />
+                <p>
+                    Nostrud exercitation cupidatat adipisicing excepteur
+                    deserunt irure est. Lorem non laborum sunt velit duis minim
+                    incididunt.
+                </p>
+            </article>
+            <article>
+                <img />
+                <p>Et ut anim amet veniam ut pariatur sunt.</p>
+            </article>
+        </section>
+
+        <section class="carousel">
+            <div>
+                <ul>
+                    <li><img /></li>
+                    <li><img /></li>
+                    <li><img /></li>
+                    <li><img /></li>
+                    <li><img /></li>
+                    <li><img /></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="form">
+            <form method="get" action="">
+                <label for="name">name</label>
+                <input type="text" id="name" name="Name" required />
+
+                <label for="email">email</label>
+                <input type="email" id="email" name="Email" required />
+
+                <fieldset>
+                    <legend>interest?</legend>
+                    <input
+                        type="radio"
+                        id="buyer"
+                        name="interest"
+                        value="buyer"
+                    />
+                    <label for="buyer">Buyer</label>
+                    <input
+                        type="radio"
+                        id="visiting"
+                        name="interest"
+                        value="visiting"
+                    />
+                    <label for="visiting">Visitor</label>
+                    <input
+                        type="radio"
+                        id="other"
+                        name="interest"
+                        value="other"
+                    />
+                    <label for="other">Other</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>
+                        Would you like us to send you information on new
+                        products
+                    </legend>
+                    <input type="radio" id="yes" name="Option" value="Yes" />
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="Option" value="No" />
+                    <label for="no">No</label>
+                </fieldset>
+                <input type="submit" value="send" id="submit" />
+            </form>
+        </section>
+    </body>
+</html>
